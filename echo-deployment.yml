@@ -17,6 +17,6 @@ spec:
       containers:
       - name: http-echo
         image: hashicorp/http-echo
-        command: ['/http-echo', '-listen=:8080', '-text="hello world"']
+        command: ['/http-echo', '-listen=:8080', '-text="hello wonderful world"']
         ports:
         - containerPort: 8080
