@@ -43,6 +43,10 @@ Stop minikube (when done with the workshop :-)):
 ```bash
 minikube stop
 ```
+Connect your LoadBalancer to the outside world (this is a blocking call):
+```bash
+minikube tunnel
+```
 
 ### kubectl
 
